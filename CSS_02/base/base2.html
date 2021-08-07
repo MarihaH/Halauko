@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .a {
+            list-style: upper-roman;
+            font-weight: bold;
+        }
+
+        li {
+            font-weight: normal;
+            list-style: lower-roman;
+        }
+
+        pre {
+            color: lawngreen;
+            background-color: black;
+            width: 400px;
+            max-height: fit-content;
+            overflow: auto;
+        }
+    </Style>
+</head>
+
+<body>
+    <ul>
+        <li class="a">Контейнер с кодом
+            <ul>
+                <li>Цвет фона:черный</li>
+                <li>Цвет текста:зеленый</li>
+                <li>Ширина: 400px</li>
+                <li>Максииальная высота контейнера: 4-е строки</li>
+                <li>Переполнение:автоматическое</li>
+            </ul>
+        </li>
+        <li class="a">Список</li>
+        <ul>
+            <li>Ширина: 350px</li>
+            <li>Тип списка:римские цифры</li>
+            <li>Тип вложенного списка:римские нижний регистр цифры</li>
+        </ul>
+
+    </ul>
+    <pre>
+#!/usb/bin/env python
+print `Hello.I am a python program.`
+name= raw_input ("What is your name?")
+print "Hello there,"+ name + "!"
+</pre>
+</body>
+
+</html>
